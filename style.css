@@ -1,5 +1,6 @@
 body{
     background-color: #D7D0C8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h1{
@@ -13,4 +14,13 @@ h1{
 
 a{
     color: #BD897e;
+}
+
+.ingredients{
+    /* Dit zijn de ingredienten */
+    background-color: #BD897e;
+}
+
+.directions{
+    background-color: #96a78d;
 }
