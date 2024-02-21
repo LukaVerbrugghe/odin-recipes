@@ -28,3 +28,7 @@ a{
 footer{
     font-size: 12px;
 }
+
+a:hover{
+    color: deeppink;
+}
