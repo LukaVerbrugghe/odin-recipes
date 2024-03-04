@@ -1,34 +1,58 @@
 body{
     background-color: #D7D0C8;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1, .links, .directions{
+    background-color: #96a78d;
 }
 
 h1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #96a78d;
+    text-align: center;
+    padding: 4px;
+    margin: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
-.links{
-    background-color: #96a78d;
+.links, .directions{
+    padding: 10px 20px;
+    text-align: center;
+    margin: 10px 55px;
+    border-radius: 3px;
+}
+
+li{
+    margin: 10px 25px 10px 25px;
 }
 
 a{
     color: #BD897e;
+    padding: 4px;
+    margin: 8px;
+    text-decoration: none;
+    display: block;
 }
 
 .ingredients{
-    /* Dit zijn de ingredienten */
     background-color: #BD897e;
-}
-
-.directions{
-    background-color: #96a78d;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 10px 55px;
+    border-radius: 3px;
 }
 
 footer{
     font-size: 12px;
+    text-align: center;
+    background-color: #96a78d;
+    padding: 5px;
+    margin: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 a:hover{
-    color: deeppink;
+    color: rgb(197, 228, 215);
 }
